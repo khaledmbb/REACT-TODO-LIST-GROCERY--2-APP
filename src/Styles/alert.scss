@@ -1,0 +1,21 @@
+.red,
+.green {
+  margin: $gap 0;
+  display: flex;
+  justify-content: center;
+  p {
+    background-color: $error;
+    color: $errorColor;
+    border: 1px solid $error;
+    padding: 5px 10px;
+    border-radius: $radius;
+    width: fit-content;
+  }
+}
+.green {
+  p {
+    background-color: $good;
+    color: $goodColor;
+    border: 1px solid $good;
+  }
+}

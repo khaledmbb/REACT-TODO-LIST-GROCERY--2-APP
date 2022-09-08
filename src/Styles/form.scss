@@ -1,0 +1,32 @@
+form {
+  margin-top: $gap;
+  background-color: $gray;
+  padding: $gap;
+  margin-bottom: $gap;
+  display: flex;
+  align-items: center;
+  gap: $gap;
+  flex-flow: row nowrap;
+  border-radius: $radius;
+  input[type="text"] {
+    padding: 10px 15px;
+    background-color: white;
+    width: 70%;
+    border-radius: $radius;
+    border: none;
+    outline: none;
+    &:focus {
+      outline: 1px solid $color;
+    }
+  }
+  input[type="submit"] {
+    cursor: pointer;
+    background-color: $color;
+    color: white;
+    font-weight: $bold;
+    width: 30%;
+    border: none;
+    border-radius: $radius;
+    padding: 10px 15px;
+  }
+}
